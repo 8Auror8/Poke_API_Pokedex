@@ -1,0 +1,114 @@
+body {
+  /* Imagen de user3802032 en Freepik */
+    background-image:url(./images/sat/fondo_sat.png);
+    /* background-color: #DA1593 */;
+    margin: 0;
+    font-family: rubik;
+    color: white;
+  }
+  .container {
+    padding: 40px;
+    /* margin: 0 auto; */
+    margin-top: 10px;
+
+  }
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+    margin-top: 2vh;
+  }
+
+  #input{
+    display:flexbox;
+    margin-top: 0px;
+    margin-left: 42vw;
+    height: 25px;
+    width: 300px;
+    border-radius: 30px;
+
+  }
+
+  .card {
+    list-style: none;
+    padding: 40px;
+    background-color: #f4f4f4;
+    color: #222;
+    text-align: center;
+    border-radius: 5%;
+  }
+
+  .card-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 0;
+    color: azure;
+  }
+  .card-subtitle {
+    font-weight: lighter;
+    color: #EBECD7;
+    margin-bottom: 1px;
+  }
+
+  .img-container{
+    display: block;
+    /* background-color: rgba(252, 255, 76, 0.3); */
+    background-color: rgba(234, 235, 219, 0.1);
+    padding: 2vw;
+    border-radius: 15px;
+  }
+
+  .pretty-image {
+    height: 180px;
+    max-width: 100%;
+
+  }
+
+  #pokedex {
+    height:auto;
+    width: auto;
+    padding-inline-start: 0;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .green{
+    background-image: url(./images/sat/helecho_comic.png);
+    max-width: 100%;
+    height: auto;
+  }
+
+  .red{
+    background-image: url(./images/sat/magma_comic.png);
+  }
+
+  .blue{
+    background-image: url(./images/sat/mar_comic.png);
+  }
+
+  .white{
+    background-image: url(./images/sat/white_2.png);
+  }
+
+
+
+  .card:hover {
+    animation: bounce 0.5s linear;
+  }
+  @keyframes bounce {
+    20% {
+      transform: translateY(-6px);
+    }
+    40% {
+      transform: translateY(0px);
+    }
+    60% {
+      transform: translateY(-2px);
+    }
+    80% {
+      transform: translateY(-0px);
+    }
+  }

@@ -1,0 +1,151 @@
+body {
+  /* Imagen de user3802032 en Freepik */
+    background-image:url('./images/sat/fondo_sat2.png');
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: rubik;
+    color: white;
+  }
+  .container {
+    padding: 40px;
+    /* margin: 0 auto; */
+    margin-top: 10px;
+
+  }
+  h1 {
+    text-transform: uppercase;
+/*     text-align: center; */
+    margin-left: 41.5vw;
+    font-size: 72px;
+    margin-top: 2vh;
+    font-weight: 500;
+
+  }
+
+  h3{
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  #input{
+    display:flexbox;
+    margin-top: 0px;
+    margin-left: 42vw;
+    height: 35px;
+    width: 300px;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align:center;
+
+  }
+
+  .card {
+    list-style: none;
+    padding: 40px;
+    background-color: #f4f4f4;
+/*     color: #222; */
+    text-align: center;
+    border-radius: 5%;
+  }
+
+  .card-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 0;
+    color: azure;
+  }
+
+  .card-subtitle {
+    font-weight: lighter;
+    color: #EBECD7;
+    margin-bottom: 1px;
+  }
+
+  .img-container{
+    display: block;
+    /* background-color: rgba(252, 255, 76, 0.3); */
+    background-color: rgba(234, 235, 219, 0.1);
+    padding: 2vw;
+    border-radius: 15px;
+  }
+
+  .pretty-image {
+    height: 180px;
+    max-width: 100%;
+
+  }
+
+  #pokedex {
+    height:auto;
+    width: auto;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+/*     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    grid-gap: 20px;
+  }
+
+  .green{
+    background-image: url(./images/sat/helecho_comic.png);
+/*     max-width: 100%;
+    height: auto; */
+  }
+
+  .green>h3{
+    color: #05D31A;
+  }
+
+  .red{
+    background-image: url(./images/sat/magma_comic.png);
+  }
+
+  .blue{
+    background-image: url(./images/sat/mar_comic.png);
+  }
+
+  .white{
+    background-image: url(./images/sat/white_2.png);
+  }
+  .brown{
+    background-image: url(./images/sat/brown_comic.png);
+  }
+  .yellow{
+    background-image: url(./images/sat/yellow_comic.png);
+  }
+  .purple{
+    background-image: url(./images/sat/purple_comic.png);
+  }
+  .pink{
+    background-image: url(./images/sat/cotton.png);
+  }
+  .gray{
+    background-image: url(./images/sat/rock.png);
+  }
+  .black{
+    background-image: url(./images/sat/charcoal_comic.png);
+  }
+
+
+  .card:hover {
+    animation: bounce 0.5s linear;
+  }
+  @keyframes bounce {
+    20% {
+      transform: translateY(-6px);
+    }
+    40% {
+      transform: translateY(0px);
+    }
+    60% {
+      transform: translateY(-2px);
+    }
+    80% {
+      transform: translateY(-0px);
+    }
+  }
